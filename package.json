@@ -1,0 +1,19 @@
+{
+  "name": "prueba_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Mit",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0"
+  }
+}
