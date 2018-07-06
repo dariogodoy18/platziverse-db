@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=platziverse:* ava tests/ --verbose",
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/ --verbose",
     "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
@@ -13,6 +13,9 @@
   "license": "Mit",
   "devDependencies": {
     "ava": "^0.25.0",
+    "nyc": "^12.0.2",
+    "proxyquire": "^2.0.1",
+    "sinon": "^6.1.2",
     "standard": "^11.0.1"
   },
   "dependencies": {
